@@ -1,0 +1,50 @@
+Schema for Event Management Project.
+
+create database eventproject;
+use eventproject;
+
+Table 1.
+
+CREATE TABLE users (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(100) NOT NULL,
+    dob DATE NOT NULL,
+    PRIMARY KEY (id)
+);
+
+Table 2.
+
+CREATE TABLE events (
+    id INT NOT NULL AUTO_INCREMENT,
+    event_name VARCHAR(100) NOT NULL,
+    description TEXT NOT NULL,
+    event_date DATE NOT NULL,
+    PRIMARY KEY (id)
+);
+
+3. Data Insertion in both the tables
+
+INSERT INTO users (name, username, password, dob) 
+VALUES 
+('Aarav Sharma', 'aaravsharma', 'password123', '1995-04-10'),
+('Isha Patel', 'ishapatel', 'isha456', '1990-08-15'),
+('Ravi Kumar', 'ravikumar', 'ravi789', '1988-02-25'),
+('Priya Singh', 'priyasingh', 'priya321', '1993-12-30'),
+('Manish Gupta', 'manishgupta', 'manish123', '1992-06-22');
+
+
+INSERT INTO events (event_name, description, event_date)
+VALUES 
+('Python Bootcamp', 'An introductory bootcamp to learn Python programming.', '2023-11-15'),
+('Hackathon 2023', 'A competitive event for solving coding problems in a limited time.', '2023-12-05'),
+('AI Workshop', 'A workshop on Artificial Intelligence and its applications.', '2023-12-10'),
+('Data Science Meetup', 'A meetup discussing trends in Data Science and Analytics.', '2023-12-20'),
+('JavaScript Basics', 'A beginner-level workshop on JavaScript programming.', '2024-01-10'),
+('Web Development Hackathon', 'Build a website in 48 hours in this coding competition.', '2024-02-20'),
+('Machine Learning Bootcamp', 'An advanced bootcamp on Machine Learning algorithms and techniques.', '2024-03-15'),
+('Cloud Computing Summit', 'An event discussing the future and advancements in cloud computing.', '2024-04-05');
+
+
+
