@@ -71,19 +71,31 @@ String password = "YOUR_DB_PASSWORD";
 
 ### 🔐 Login Page
 
-![Login Page](screenshots/login.png)
+![Login Page](assets/login.png)
 
 ### 📝 Register Page
 
-![Register Page](screenshots/register.png)
+![Register Page](assets/register.png)
+
+### 📝 Home Page
+
+![Register Page](assets/homepage.png)
 
 ### 📅 Upcoming Events
 
-![Upcoming Events](screenshots/upcomingEvents.png)
+![Upcoming Events](assets/upcomingEvent.png)
+
+### 📅 Past Events
+
+![Upcoming Events](assets/pastEvent.png)
 
 ### 🎉 Create Event
 
-![Create Event](screenshots/createEvent.png)
+![Create Event](assets/createEvent.png)
+
+### 🎉 Delete Event
+
+![Create Event](assets/deleteEvent.png)
 
 ---
 
