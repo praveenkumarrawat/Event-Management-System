@@ -99,15 +99,7 @@ String password = "YOUR_DB_PASSWORD";
 
 ---
 
-## 📌 Future Enhancements
 
-* Add input validation and enhanced error messages
-* Responsive UI with modern design (Bootstrap or Tailwind CSS)
-* Search and filter functionality for events
-* Add user profile page and event history
-* Email notifications/reminders
-
----
 
 ## 👤 Author
 
