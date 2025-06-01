@@ -81,6 +81,10 @@ String password = "YOUR_DB_PASSWORD";
 
 ![Register Page](assets/homepage.png)
 
+### 🎉 Create Event
+
+![Create Event](assets/createEvent.png)
+
 ### 📅 Upcoming Events
 
 ![Upcoming Events](assets/upcomingEvent.png)
@@ -89,9 +93,6 @@ String password = "YOUR_DB_PASSWORD";
 
 ![Upcoming Events](assets/pastEvent.png)
 
-### 🎉 Create Event
-
-![Create Event](assets/createEvent.png)
 
 ### 🎉 Delete Event
 
